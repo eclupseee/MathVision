@@ -1,0 +1,40 @@
+# Секреты
+.env
+.env.*
+!.env.example
+
+# Окружение и кэш
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Временные фотографии и файлы
+tmp/
+temp/
+downloads/
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.log
+
+# IDE / ОС
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Модели и кэши распознавания (не коммитить и не архивировать)
+*.traineddata
+*.pt
+*.pth
+*.onnx
+*.ckpt
+models/
+checkpoints/
+.cache/
