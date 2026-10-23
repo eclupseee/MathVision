@@ -227,8 +227,7 @@ condition.addEventListener('input', updateConditionPreview);
 
     // После публикации API укажи здесь его публичный HTTPS-адрес.
     // Не используй 127.0.0.1: на сайте это будет компьютер посетителя.
-    const API_BASE_URL = 'http://127.0.0.1:8000';
-
+    const API_BASE_URL = 'https://mathvision-ad5l.onrender.com';
     photo.addEventListener('change', () => {
       const file = photo.files && photo.files[0];
       if (!file) return;
